@@ -1,0 +1,8 @@
+Run linux inside android? You may complain that fbpanel's batter plugin don't work.  
+You can use this to get battery plugin work.
+
+* How to
+
+Download fbpanel's source code, copy os_android.c to $source_dir/plugins/battery/ and 
+include os_android.c into battery.c. That all!
+
